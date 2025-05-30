@@ -13,13 +13,13 @@
 const frase = 'Eu não gosto de spoilers e memes sem graça.';
 const trecho = 'e memes sem graça.';
 
-let comprimentoTrecho: number;
-let indice: number;
-let fraseRevisada: string;
+let comprimentoTrecho: number = trecho.length
+let indice: number = frase.indexOf(trecho)
+let i = frase.indexOf(" e memes");
+let fraseRevisada: string = frase.slice(0, 24);
 
 // Seu código aqui 👇
 
-fraseRevisada = `"`;
 
 console.log(`Comprimento do trecho: ${comprimentoTrecho}`); //18
 console.log(`Índice do trecho: ${indice}`); // 25
